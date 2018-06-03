@@ -5,8 +5,9 @@ body {
 }
 
 .wrapper {
-  position: relative;
+  position: absolute;
   min-height: 100vh;
+  width: 100vw;
 }
 
 [class|="confetti"] {
@@ -25,14 +26,8 @@ body {
   background-color: #5FC9F5;
 }
 
-.flex {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
 #happy_birthday {
+  margin:0;
   z-index: 0;
   font-size: 20vw;
   font-family: 'dancing script', monospace;
