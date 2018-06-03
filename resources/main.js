@@ -3,8 +3,8 @@ for (var i = 0; i < 250; i++) {
 }
 
 function create(i) {
-  var width = Math.random() * 10;
-  var height = width * 1;
+  var width = Math.random() * 4;
+  var height = width * .4;
   var colourIdx = Math.ceil(Math.random() * 3);
   var colour = "red";
   switch(colourIdx) {
